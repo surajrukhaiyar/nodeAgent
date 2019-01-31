@@ -1,0 +1,25 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "node agent for aggregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon lineByLine.js"
+  },
+  "author": "suraj r",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "line-by-line": "^0.1.6",
+    "line-reader": "^0.4.0",
+    "lodash": "^4.17.11",
+    "node-rest-client": "^3.1.0",
+    "nodemailer": "^5.1.1",
+    "sleep": "^6.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
